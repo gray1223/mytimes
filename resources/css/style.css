@@ -3,5 +3,37 @@ html {
 }
 
 header {
+  width: 100%;
   display: flex;
+  position: fixed;
+  align-items: center;
+  z-index: 1;
+  height: 80px;
+  border-bottom: 1px solid black;
+  background-color: white;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  padding-right: 50px;
+}
+
+.logo span {
+  color: mediumaquamarine;
+}
+
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
 }
